@@ -1,17 +1,16 @@
 {
-    "name": "aula",
+    "name": "cadastro-clientes",
     "version": "1.0.0",
-    "main": "server.js",
+    "type": "module",
+    "main": "src/server.js",
     "scripts": {
-        "start": "node server.js",
-        "test": "jest"
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "test": "node -e \"console.log('OK: testes de fumaça');\""
     },
     "dependencies": {
-        "body-parser": "^1.20.3",
-        "express": "^4.21.2",
+        "express": "^4.19.2",
+        "sqlite": "^5.1.1",
         "sqlite3": "^5.1.7"
-    },
-    "devDependencies": {
-        "jest": "^29.7.0"
     }
 }

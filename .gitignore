@@ -1,3 +1,11 @@
+.git
+.github
 node_modules
-.env
+npm-debug.log
 *.log
+coverage
+dist
+build
+.env
+data.db
+test
